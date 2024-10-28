@@ -7,25 +7,25 @@ import { GrContactInfo, GrServices } from 'react-icons/gr'
 
 export const TopbarMid = () => {
     return (
-        <div className=' space-x-2 dark:text-gray-300 hidden sm:flex text-mediumblue'>
+        <div className=' space-x-2 dark:text-gray-300 flex text-mediumblue'>
             <Link href="#top" className="topbar-icon">
                 <FaHome className="h-5 w-5" />
-                <p>Home</p>
+                <p className='hidden sm:flex'>Home</p>
             </Link>
 
             <Link href="#about" className="topbar-icon">
                 <BsInfoCircleFill className="h-5 w-5" />
-                <p>About</p>
+                <p className='hidden sm:flex'>About</p>
             </Link>
 
             <Link href="#services" className="topbar-icon">
                 <GrServices className="h-5 w-5" />
-                <p>Services</p>
+                <p className='hidden sm:flex'>Services</p>
             </Link>
 
             <Link href="#contact" className="topbar-icon">
                 <GrContactInfo className="h-5 w-5" />
-                <p>Contact</p>
+                <p className='hidden sm:flex'>Contact</p>
             </Link>
         </div>
     )

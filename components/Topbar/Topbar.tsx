@@ -19,7 +19,7 @@ import { TopbarRight } from './TopbarRight'
 export const Topbar = () => {
   return (
     <div className="h-16 fixed w-full dark:bg-darkbackground  bg-gray-200 z-50">
-            <div className="flex px-4 sm:px-2  max-w-screen-xl mx-auto items-center h-full border-b border-mediumblue justify-between">
+            <div className="flex md:px-4 px-2 sm:px-2  max-w-screen-xl mx-auto items-center h-full border-b border-mediumblue justify-between">
               
               
 
