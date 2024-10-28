@@ -3,7 +3,6 @@ import "./globals.css";
 import { FcAbout } from "react-icons/fc";
 import { GrContactInfo, GrServices } from "react-icons/gr";
 import { Topbar } from "@/components/Topbar/Topbar";
-import { Bottombar } from "@/components/Topbar/Bottombar/Bottombar";
 
 export default function RootLayout({
   children,
@@ -28,7 +27,6 @@ export default function RootLayout({
       </head>
       <body className="dark:bg-darkbackground custom-scrollbar bg-gray-200  flex flex-col h-screen min-h-screen text-white">
         <Topbar />
-        <Bottombar/>
         <div className="flex-1 flex">
           {children}
         </div>
